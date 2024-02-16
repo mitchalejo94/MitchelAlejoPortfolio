@@ -28,7 +28,7 @@ function Body() {
           <div
             id="part-1"
             style={{
-              height: "80vh",
+              height: "84vh",
               background: "#546a7b",
               border: "#393d3f",
               marginTop: "1vh",
@@ -70,8 +70,8 @@ function Body() {
           <div
             id="part-2"
             style={{
-              height: "80vh",
-              marginTop: "5vh",
+              height: "84vh",
+              marginTop: "2vh",
               border: "#393d3f",
               background: "#546a7b",
             }}
@@ -94,29 +94,12 @@ function Body() {
           <div
             id="part-3"
             style={{
-              height: "80vh",
-              marginTop: "5vh",
+              height: "84vh",
+              marginTop: "2vh",
               border: "#393d3f",
               background: "#546a7b",
             }}
           >
-            {/* <Row gutter={16}>
-              <Col span={8}>
-                <Card title="Project 1" bordered={false}>
-                  Project 1
-                </Card>
-              </Col>
-              <Col span={8}>
-                <Card title="Project 2" bordered={false}>
-                  Project 2
-                </Card>
-              </Col>
-              <Col span={8}>
-                <Card title="Project 3" bordered={false}>
-                  Project 3
-                </Card>
-              </Col>
-            </Row> */}
             <div>
               <Card
                 style={{
@@ -176,8 +159,8 @@ function Body() {
             targetOffset={targetOffset}
             style={{
               marginTop: "1vh",
-              background: "#c6c5b9",
-              height: "96vh",
+              background: "#708d81",
+              height: "84vh",
               marginLeft: "5px",
             }}
             items={[

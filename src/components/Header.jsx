@@ -1,5 +1,9 @@
 import "./Header.css";
 import React from "react";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 
 function Header() {
   const topRef = React.useRef(null);
@@ -19,7 +23,17 @@ function Header() {
           }}
           ref={topRef}
         >
-          <div>Fixed Top Block</div>
+          {/* <div>Fixed Top Block</div> */}
+          <div className="navigationBar">
+            <Navbar className="navbar navbar-dark bg-dark" expand="lg">
+              <Container>
+                <Link to="/" className="navbar-brand" id="navBarTitle">
+                  Mitchel A. Alejo
+                </Link>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              </Container>
+            </Navbar>
+          </div>
         </div>
       </div>
     </>
