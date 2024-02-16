@@ -1,6 +1,9 @@
 // import React from 'react'
 import { Anchor, Row, Col, Carousel, Card, Avatar } from "antd";
 import React, { useEffect, useState } from "react";
+import resume from "../assets/Mitchel.Alejo.Resume.pdf";
+import resumeImage from "../assets/pngtree-vector-resume-icon-png-image_927259.jpg";
+
 import {
   EditOutlined,
   EllipsisOutlined,
@@ -21,6 +24,7 @@ function Body() {
   useEffect(() => {
     setTargetOffset(topRef.current?.clientHeight);
   }, []);
+
   return (
     <>
       <Row>
@@ -67,6 +71,8 @@ function Body() {
               aliquam nulla.
             </p>
           </div>
+
+          {/* Page 2  */}
           <div
             id="part-2"
             style={{
@@ -91,6 +97,8 @@ function Body() {
               </div>
             </Carousel>
           </div>
+
+          {/* Page 3  */}
           <div
             id="part-3"
             style={{
@@ -102,53 +110,17 @@ function Body() {
           >
             <div>
               <Card
+                onClick={() => {
+                  window.open(resume, "_blank");
+                }}
                 style={{
                   width: 200,
                 }}
-                cover={
-                  <img
-                    alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                  />
-                }
-                actions={[
-                  <SettingOutlined key="setting" />,
-                  <EditOutlined key="edit" />,
-                  <EllipsisOutlined key="ellipsis" />,
-                ]}
+                cover={<img alt="example" src={resumeImage} />}
               >
                 <Meta
-                  avatar={
-                    <Avatar src="https://api.dicebear.com/7.x/miniavs/svg?seed=8" />
-                  }
-                  title="Card title"
-                  description="This is the description"
-                />
-              </Card>
-            </div>
-            <div>
-              <Card
-                style={{
-                  width: 200,
-                }}
-                cover={
-                  <img
-                    alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                  />
-                }
-                actions={[
-                  <SettingOutlined key="setting" />,
-                  <EditOutlined key="edit" />,
-                  <EllipsisOutlined key="ellipsis" />,
-                ]}
-              >
-                <Meta
-                  avatar={
-                    <Avatar src="https://api.dicebear.com/7.x/miniavs/svg?seed=8" />
-                  }
-                  title="Card title"
-                  description="This is the description"
+                  title="Mitchel Alejo Resume"
+                  description="View/Download Resume"
                 />
               </Card>
             </div>
