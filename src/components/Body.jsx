@@ -3,7 +3,7 @@ import { Anchor, Row, Col, Carousel, Card, Avatar } from "antd";
 import React, { useEffect, useState } from "react";
 import resume from "../assets/Mitchel.Alejo.Resume.pdf";
 import resumeImage from "../assets/pngtree-vector-resume-icon-png-image_927259.jpg";
-
+import fvpLogo from "../assets/FVPLOGO.svg";
 import {
   EditOutlined,
   EllipsisOutlined,
@@ -124,6 +124,38 @@ function Body() {
                 />
               </Card>
             </div>
+            <div>
+              <Card
+                onClick={() => {
+                  window.open(
+                    "https://foxvalleypainters.netlify.app/",
+                    "_blank"
+                  );
+                }}
+                style={{
+                  width: 200,
+                }}
+                cover={<img alt="example" src={fvpLogo} />}
+              >
+                <Meta
+                  title="Fox Valley Painters Project"
+                  description="View Project"
+                />
+              </Card>
+            </div>
+            <div>
+              <Card
+                onClick={() => {
+                  window.open(" https://tech-buy.netlify.app", "_blank");
+                }}
+                style={{
+                  width: 200,
+                }}
+                cover={<img alt="example" />}
+              >
+                <Meta title="TechBuy Project" description="View Project" />
+              </Card>
+            </div>
           </div>
         </Col>
         <Col span={6}>
@@ -139,17 +171,17 @@ function Body() {
               {
                 key: "part-1",
                 href: "#part-1",
-                title: "Part 1",
+                title: "About Me",
               },
               {
                 key: "part-2",
                 href: "#part-2",
-                title: "Part 2",
+                title: "Projects",
               },
               {
                 key: "part-3",
                 href: "#part-3",
-                title: "Part 3",
+                title: "Jobs",
               },
             ]}
           />
