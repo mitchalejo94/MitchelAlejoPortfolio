@@ -1,21 +1,18 @@
 // import React from 'react'
 import { Anchor, Row, Col, Carousel, Card, Avatar } from "antd";
 import React, { useEffect, useState } from "react";
+import "./Body.css";
 import resume from "../assets/Mitchel.Alejo.Resume.pdf";
 import resumeImage from "../assets/pngtree-vector-resume-icon-png-image_927259.jpg";
 import fvpLogo from "../assets/FVPLOGO.svg";
-import {
-  EditOutlined,
-  EllipsisOutlined,
-  SettingOutlined,
-} from "@ant-design/icons";
+
 const { Meta } = Card;
 const contentStyle = {
-  height: "100%",
+  height: "10rem",
   color: "#fff",
   lineHeight: "80vh",
   textAlign: "center",
-  background: "#364d79",
+  background: "gray",
 };
 
 function Body() {
@@ -49,39 +46,62 @@ function Body() {
               quis. Ipsum nunc aliquet bibendum enim facilisis gravida neque
               convallis. Velit euismod in pellentesque massa. Quam pellentesque
               nec nam aliquam. Felis donec et odio pellentesque diam volutpat.
-              Sit amet porttitor eget dolor morbi non arcu risus quis. Amet
-              facilisis magna etiam tempor orci eu lobortis elementum. Mattis
-              enim ut tellus elementum sagittis vitae et leo duis. Molestie nunc
-              non blandit massa enim nec dui nunc. Tincidunt arcu non sodales
-              neque sodales ut etiam. Iaculis eu non diam phasellus vestibulum
-              lorem sed. Libero enim sed faucibus turpis in eu. Blandit aliquam
-              etiam erat velit scelerisque. Mi sit amet mauris commodo quis
-              imperdiet. Malesuada pellentesque elit eget gravida. Volutpat
-              commodo sed egestas egestas fringilla phasellus faucibus
-              scelerisque. Malesuada pellentesque elit eget gravida cum sociis
-              natoque. Enim sit amet venenatis urna cursus eget nunc scelerisque
-              viverra. Congue nisi vitae suscipit tellus mauris a diam maecenas.
-              Porta lorem mollis aliquam ut porttitor leo a diam. Ut lectus arcu
-              bibendum at varius vel pharetra vel turpis. Et malesuada fames ac
-              turpis egestas integer. Aenean et tortor at risus viverra
-              adipiscing at in tellus. Placerat in egestas erat imperdiet sed
-              euismod. Sed blandit libero volutpat sed cras ornare arcu dui.
-              Enim ut tellus elementum sagittis vitae et leo. Egestas quis ipsum
-              suspendisse ultrices gravida. Pellentesque eu tincidunt tortor
-              aliquam nulla.
+              Sit amet porttitor eget dolor morbi non arcu risus quis.
             </p>
-          </div>
+            <div className="cardContainer">
+              <div className="individualCard">
+                <Card
+                  onClick={() => {
+                    window.open(resume, "_blank");
+                  }}
+                  style={{
+                    width: 200,
+                    height: 300,
+                  }}
+                  cover={<img alt="example" src={resumeImage} />}
+                >
+                  <Meta
+                    title="Mitchel Alejo Resume"
+                    description="View/Download Resume"
+                  />
+                </Card>
+              </div>
+              <div className="individualCard">
+                <Card
+                  onClick={() => {
+                    window.open(
+                      "https://foxvalleypainters.netlify.app/",
+                      "_blank"
+                    );
+                  }}
+                  style={{
+                    width: 200,
+                    height: 300,
+                  }}
+                  cover={<img alt="example" src={fvpLogo} />}
+                >
+                  <Meta
+                    title="Fox Valley Painters Project"
+                    description="View Project"
+                  />
+                </Card>
+              </div>
+              <div className="individualCard">
+                <Card
+                  onClick={() => {
+                    window.open(" https://tech-buy.netlify.app", "_blank");
+                  }}
+                  style={{
+                    width: 200,
+                    height: 300,
+                  }}
+                  cover={<img alt="example" />}
+                >
+                  <Meta title="TechBuy Project" description="View Project" />
+                </Card>
+              </div>
+            </div>
 
-          {/* Page 2  */}
-          <div
-            id="part-2"
-            style={{
-              height: "84vh",
-              marginTop: "2vh",
-              border: "#393d3f",
-              background: "#546a7b",
-            }}
-          >
             <Carousel effect="fade">
               <div>
                 <h3 style={contentStyle}>1</h3>
@@ -89,75 +109,10 @@ function Body() {
               <div>
                 <h3 style={contentStyle}>2</h3>
               </div>
-              <div>
-                <h3 style={contentStyle}>3</h3>
-              </div>
-              <div>
-                <h3 style={contentStyle}>4</h3>
-              </div>
             </Carousel>
           </div>
-
-          {/* Page 3  */}
-          <div
-            id="part-3"
-            style={{
-              height: "84vh",
-              marginTop: "2vh",
-              border: "#393d3f",
-              background: "#546a7b",
-            }}
-          >
-            <div>
-              <Card
-                onClick={() => {
-                  window.open(resume, "_blank");
-                }}
-                style={{
-                  width: 200,
-                }}
-                cover={<img alt="example" src={resumeImage} />}
-              >
-                <Meta
-                  title="Mitchel Alejo Resume"
-                  description="View/Download Resume"
-                />
-              </Card>
-            </div>
-            <div>
-              <Card
-                onClick={() => {
-                  window.open(
-                    "https://foxvalleypainters.netlify.app/",
-                    "_blank"
-                  );
-                }}
-                style={{
-                  width: 200,
-                }}
-                cover={<img alt="example" src={fvpLogo} />}
-              >
-                <Meta
-                  title="Fox Valley Painters Project"
-                  description="View Project"
-                />
-              </Card>
-            </div>
-            <div>
-              <Card
-                onClick={() => {
-                  window.open(" https://tech-buy.netlify.app", "_blank");
-                }}
-                style={{
-                  width: 200,
-                }}
-                cover={<img alt="example" />}
-              >
-                <Meta title="TechBuy Project" description="View Project" />
-              </Card>
-            </div>
-          </div>
         </Col>
+
         <Col span={6}>
           <Anchor
             targetOffset={targetOffset}
@@ -167,23 +122,6 @@ function Body() {
               height: "84vh",
               marginLeft: "5px",
             }}
-            items={[
-              {
-                key: "part-1",
-                href: "#part-1",
-                title: "About Me",
-              },
-              {
-                key: "part-2",
-                href: "#part-2",
-                title: "Projects",
-              },
-              {
-                key: "part-3",
-                href: "#part-3",
-                title: "Jobs",
-              },
-            ]}
           />
         </Col>
       </Row>
