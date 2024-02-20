@@ -1,8 +1,6 @@
 import "./Header.css";
-
 import React, { useState, useEffect } from "react";
-import { Image, Breadcrumb } from "antd";
-
+import { Image } from "antd";
 import Photo from "../assets/Photo.jpeg";
 
 function Header() {

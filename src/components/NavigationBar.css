@@ -1,0 +1,22 @@
+.topBar {
+  display: flex;
+  position: fixed;
+  width: 95%;
+  margin-top: -32px;
+  z-index: 9999;
+  background-color: aliceblue;
+}
+.topBar:hover {
+  color: white;
+}
+.linkContainer {
+  display: flex;
+  width: 30rem;
+  height: 2rem;
+}
+.indLinkContainer {
+  margin-left: 5px;
+}
+.indLinkContainer:hover {
+  color: white;
+}
