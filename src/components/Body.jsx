@@ -36,17 +36,10 @@ function Body() {
             }}
           >
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Praesent elementum facilisis leo vel. Ultricies mi quis hendrerit
-              dolor magna eget. At erat pellentesque adipiscing commodo elit at
-              imperdiet dui accumsan. Sit amet consectetur adipiscing elit
-              pellentesque habitant morbi tristique. Nunc faucibus a
-              pellentesque sit. Sit amet massa vitae tortor condimentum lacinia
-              quis. Ipsum nunc aliquet bibendum enim facilisis gravida neque
-              convallis. Velit euismod in pellentesque massa. Quam pellentesque
-              nec nam aliquam. Felis donec et odio pellentesque diam volutpat.
-              Sit amet porttitor eget dolor morbi non arcu risus quis.
+              Feel free to browse through my projects, and don't hesitate to
+              reach out. I'm always eager to connect with like-minded
+              individuals and explore new opportunities. Happy coding! Mitchel
+              A. Alejo
             </p>
             <div className="cardContainer">
               <div className="individualCard">

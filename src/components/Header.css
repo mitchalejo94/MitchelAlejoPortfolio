@@ -1,1 +1,22 @@
+.textChangeContainer {
+  height: 12rem;
+}
 
+.text1 {
+  display: flex;
+  margin-right: 50%;
+}
+.textChange {
+  display: flex;
+  margin-right: 50%;
+}
+.myPhoto {
+  display: flex;
+  justify-content: center;
+  margin-left: 50%;
+  margin-top: -11rem;
+}
+.introText {
+  margin-right: 50%;
+  display: flex;
+}
