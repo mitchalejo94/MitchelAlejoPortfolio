@@ -10,6 +10,14 @@
   color: #eff6e0;
   height: 5rem;
 }
+@media screen and (max-width: 768px) {
+  .topBar {
+    justify-content: center;
+  }
+  .indLinkContainer {
+    font-size: 15px;
+  }
+}
 .topBar:hover {
   color: white;
 }
@@ -18,10 +26,12 @@
   width: 30rem;
 }
 .indLinkContainer {
-  margin-left: 20px;
+  margin-left: 0px;
   color: #eff6e0;
   opacity: 0.5;
-  font-size: 40px;
+  font-size: 30px;
+
+  width: 50rem;
 }
 .indLinkContainer:hover {
   color: white;

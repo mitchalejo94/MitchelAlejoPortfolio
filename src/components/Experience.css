@@ -1,0 +1,18 @@
+.experiencePageContainer {
+  margin-top: 20px;
+  height: 70rem;
+  display: flex;
+  justify-content: center;
+  color: #eff6e0;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+.skillsContainer {
+  display: flex;
+  margin-top: 80px;
+  height: 45rem;
+}
+.educationContainer {
+  margin-top: 40rem;
+  height: 29rem;
+}

@@ -1,5 +1,14 @@
 .aboutMeText {
   display: flex;
   margin-right: 50%;
-  height: 25rem;
+  margin-top: 80px;
+  height: 45rem;
+  color: #eff6e0;
+  font-family: "Poppins";
+  font-size: 20px;
+  /* border: solid red; */
+}
+.aboutMeContainer {
+  border: solid 0.7px;
+  height: 70rem;
 }

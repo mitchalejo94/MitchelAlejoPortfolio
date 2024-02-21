@@ -20,6 +20,11 @@ function NavigationBar() {
                     </Link>
                   </div>
                   <div className="indLinkContainer">
+                    <Link to="experiencePage" smooth={true} duration={700}>
+                      Experience
+                    </Link>
+                  </div>
+                  <div className="indLinkContainer">
                     <Link to="projectsPage" smooth={true} duration={700}>
                       Projects
                     </Link>
