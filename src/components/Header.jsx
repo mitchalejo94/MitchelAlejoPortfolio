@@ -23,15 +23,9 @@ function Header() {
     <>
       <div>
         <div className="textChangeContainer">
-          <div className="text1">
-            <h1>Hello, I am</h1>
-          </div>
-          <div className="textChange">
-            <h1>{text}</h1>
-          </div>
-          <div className="introText">
-            <h3>Welcome to my portfolio </h3>
-          </div>
+          <div className="text1">Hello, I am</div>
+          <div className="textChange">{text}</div>
+          <div className="introText">Welcome to my portfolio</div>
           <div className="myPhoto">
             <Image width={200} src={Photo} />
           </div>

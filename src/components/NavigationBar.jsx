@@ -11,10 +11,6 @@ function NavigationBar() {
         items={[
           {
             href: "",
-            title: <HomeOutlined />,
-          },
-          {
-            href: "",
             title: (
               <>
                 <div className="linkContainer">

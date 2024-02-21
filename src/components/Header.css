@@ -1,22 +1,29 @@
 .textChangeContainer {
-  height: 12rem;
+  height: 15rem;
+  color: #eff6e0;
+  font-family: "Poppins";
+  margin-top: 50px;
 }
 
 .text1 {
   display: flex;
   margin-right: 50%;
+  font-size: 55px;
 }
 .textChange {
   display: flex;
-  margin-right: 50%;
+  margin-right: 40%;
+  font-size: 55px;
+  transition: opacity 0.5s ease;
 }
 .myPhoto {
   display: flex;
   justify-content: center;
   margin-left: 50%;
-  margin-top: -9.5rem;
+  margin-top: -12rem;
 }
 .introText {
   margin-right: 50%;
   display: flex;
+  font-size: 30px;
 }
