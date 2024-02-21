@@ -1,6 +1,9 @@
 import React from "react";
 import "./Experience.css";
-
+import { Card } from "antd";
+import resume from "../assets/Mitchel.Alejo.Resume.pdf";
+const { Meta } = Card;
+import resumeImage from "../assets/pngtree-vector-resume-icon-png-image_927259.jpg";
 function Experience() {
   return (
     <>
@@ -27,6 +30,25 @@ function Experience() {
               noodle horse doggo. Lotsa pats length boy smol borking doggo with
               a long snoot for pats heckin angery woofer, wow such tempt shibe.
             </p>
+            <div className="resumeCard">
+              <Card
+                onClick={() => {
+                  window.open(resume, "_blank");
+                }}
+                cover={
+                  <img
+                    className="resumeImage"
+                    alt="example"
+                    src={resumeImage}
+                  />
+                }
+              >
+                <Meta
+                  title="Mitchel Alejo Resume"
+                  description="View/Download Resume"
+                />
+              </Card>
+            </div>
           </section>
         </div>
       </div>

@@ -1,14 +1,1 @@
-.cardContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.individualCard {
-  margin: 5px;
-}
-.individualCard:hover {
-  opacity: 0.7;
-  cursor: pointer;
-  width: 205px;
-  height: 305px;
-}
+

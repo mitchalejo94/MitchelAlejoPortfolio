@@ -2,7 +2,6 @@
   display: flex;
   justify-content: right;
   position: fixed;
-  width: 95%;
   margin-top: -32px;
   z-index: 9999;
   background-color: #aec3b0;

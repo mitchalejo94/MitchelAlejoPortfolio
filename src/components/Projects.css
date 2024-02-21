@@ -1,0 +1,47 @@
+.cardContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 19rem;
+}
+.projectPageContainer {
+  margin-top: 20px;
+  border: solid 0.7px;
+  height: 40rem;
+  /* border: solid green; */
+}
+.projectText {
+  margin-top: 80px;
+  height: 10rem;
+  color: #eff6e0;
+  font-family: "Poppins";
+  font-size: 23px;
+  /* border: solid blue; */
+}
+.individualCard {
+  display: flex;
+  justify-content: center;
+  margin-right: 40rem;
+  /* border: solid blue; */
+  height: 18rem;
+  width: 15rem;
+}
+.cardImage {
+  height: 11rem;
+  /* border: solid red; */
+}
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.individualCard {
+  margin: 5px;
+}
+.individualCard:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  width: 205px;
+  height: 305px;
+}
