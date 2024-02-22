@@ -1,4 +1,5 @@
-import { Row, Col, Card, Carousel, Anchor } from "antd";
+import { Card } from "antd";
+import { useInView } from "react-intersection-observer";
 import resume from "../assets/Mitchel.Alejo.Resume.pdf";
 import resumeImage from "../assets/pngtree-vector-resume-icon-png-image_927259.jpg";
 import fvpLogo from "../assets/FVPLOGO.svg";
@@ -10,6 +11,9 @@ const { Meta } = Card;
 function Projects() {
   const topRef = React.useRef(null);
   const [targetOffset, setTargetOffset] = useState();
+  const { ref: projectRef, inView: projectIsVisible } = useInView();
+  const animateProject = projectIsVisible ? "animateProject" : "";
+
   useEffect(() => {
     setTargetOffset(topRef.current?.clientHeight);
   }, []);
@@ -24,8 +28,10 @@ function Projects() {
           </p>
         </div>
         <div className="cardContainer">
-          <div className="individualCard">
+          <div>
             <Card
+              ref={projectRef}
+              className={`individualCard ${animateProject} `}
               onClick={() => {
                 window.open(resume, "_blank");
               }}
@@ -39,8 +45,10 @@ function Projects() {
               />
             </Card>
           </div>
-          <div className="individualCard">
+          <div>
             <Card
+              ref={projectRef}
+              className={`individualCard ${animateProject} `}
               onClick={() => {
                 window.open("https://foxvalleypainters.netlify.app/", "_blank");
               }}
@@ -53,8 +61,10 @@ function Projects() {
             </Card>
           </div>
 
-          <div className="individualCard">
+          <div>
             <Card
+              ref={projectRef}
+              className={`individualCard ${animateProject} `}
               onClick={() => {
                 window.open(" https://tech-buy.netlify.app", "_blank");
               }}
@@ -63,8 +73,10 @@ function Projects() {
               <Meta title="TechBuy Project" description="View Project" />
             </Card>
           </div>
-          <div className="individualCard">
+          <div>
             <Card
+              ref={projectRef}
+              className={`individualCard ${animateProject} `}
               onClick={() => {
                 window.open(" https://tech-buy.netlify.app", "_blank");
               }}

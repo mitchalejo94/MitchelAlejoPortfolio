@@ -53,19 +53,19 @@
 }
 
 @keyframes animate-card {
-  0% {
+  5% {
     transform: scale(1) rotate(10deg);
   }
-  5% {
+  10% {
     transform: scale(1) rotate(-15deg);
   }
-  10% {
+  15% {
     transform: scale(1) rotate(5deg);
   }
-  15% {
+  20% {
     transform: scale(1) rotate(-10deg);
   }
-  20% {
+  25% {
     transform: scale(1) rotate(0deg);
   }
 }

@@ -20,15 +20,14 @@
   /* border: solid blue; */
 }
 .individualCard {
-  display: flex;
   justify-content: center;
   margin-right: 40rem;
-  /* border: solid blue; */
-  height: 18rem;
-  width: 15rem;
+  border: solid blue;
+  height: 15rem;
+  width: 12rem;
 }
 .cardImage {
-  height: 11rem;
+  height: 8rem;
   /* border: solid red; */
 }
 .cardContainer {
@@ -42,7 +41,23 @@
 .individualCard:hover {
   /* opacity: 0.7; */
   cursor: pointer;
-  width: 205px;
-  height: 305px;
+  height: 17rem;
+  width: 12rem;
   filter: drop-shadow(0 0 3em #aec3b0);
+}
+
+.animateProject {
+  animation-duration: 2s;
+  animation-name: animate-project;
+}
+
+@keyframes animate-project {
+  0% {
+    transform: translateX(-150%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
