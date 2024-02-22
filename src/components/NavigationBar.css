@@ -8,17 +8,16 @@
   border: solid 0.5px #eff6e0;
   color: #eff6e0;
   height: 5rem;
+  width: 76%;
 }
 @media screen and (max-width: 768px) {
   .topBar {
     justify-content: center;
+    width: fit-content;
   }
   .indLinkContainer {
     font-size: 15px;
   }
-}
-.topBar:hover {
-  color: white;
 }
 .linkContainer {
   display: flex;
@@ -29,7 +28,6 @@
   color: #eff6e0;
   opacity: 0.5;
   font-size: 30px;
-
   width: 50rem;
 }
 .indLinkContainer:hover {

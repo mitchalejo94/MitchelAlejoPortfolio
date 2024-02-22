@@ -1,10 +1,13 @@
-import React from "react";
+import { useInView } from "react-intersection-observer";
 import "./Experience.css";
 import { Card } from "antd";
 import resume from "../assets/Mitchel.Alejo.Resume.pdf";
 const { Meta } = Card;
 import resumeImage from "../assets/pngtree-vector-resume-icon-png-image_927259.jpg";
+
 function Experience() {
+  const { ref: cardRef, inView: cardIsVisible } = useInView();
+  const animateCard = cardIsVisible ? "animateCard" : "";
   return (
     <>
       <div className="experiencePageContainer">
@@ -21,7 +24,8 @@ function Experience() {
           <section>
             <div>
               <Card
-                className="resumeCard"
+                ref={cardRef}
+                className={`resumeCard ${animateCard} `}
                 onClick={() => {
                   window.open(resume, "_blank");
                 }}

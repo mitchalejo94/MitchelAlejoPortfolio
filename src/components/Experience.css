@@ -25,8 +25,9 @@
   width: 14rem;
   height: 17rem;
   margin-left: 8rem;
-  opacity: 0.8;
-  border: solid 2px red;
+  opacity: 0.9;
+  filter: drop-shadow(0 0 1.5em #aec3b0);
+  display: inline-block;
 }
 .resumeImage {
   height: 10rem;
@@ -35,13 +36,36 @@
 .resumeCard:hover {
   width: 14.5rem;
   height: 17.5rem;
-  opacity: 0.7;
+  opacity: 1;
   cursor: pointer;
-  filter: drop-shadow(0 0 3em #aec3b0);
+  filter: drop-shadow(0 0 2em #aec3b0);
 }
 .skillsText {
   margin-top: -20rem;
 }
 .educationText {
   margin-top: 40px;
+}
+
+.animateCard {
+  animation-duration: 5s;
+  animation-name: animate-card;
+}
+
+@keyframes animate-card {
+  0% {
+    transform: scale(1) rotate(10deg);
+  }
+  5% {
+    transform: scale(1) rotate(-15deg);
+  }
+  10% {
+    transform: scale(1) rotate(5deg);
+  }
+  15% {
+    transform: scale(1) rotate(-10deg);
+  }
+  20% {
+    transform: scale(1) rotate(0deg);
+  }
 }

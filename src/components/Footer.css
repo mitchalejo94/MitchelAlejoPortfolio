@@ -1,6 +1,5 @@
 .footerContainer {
   border: solid red;
-
   background-color: #aec3b0;
   border: solid 2px #eff6e0;
   color: #eff6e0;
@@ -12,7 +11,7 @@
   height: auto;
 }
 .footerIcon:hover {
-  filter: drop-shadow(0 0 1em #aec3b0);
+  filter: drop-shadow(0 0 1em gray);
   cursor: pointer;
   width: 41px;
   height: auto;

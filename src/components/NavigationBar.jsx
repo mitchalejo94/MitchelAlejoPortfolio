@@ -6,11 +6,11 @@ import "./NavigationBar.css";
 
 function NavigationBar() {
   return (
-    <div className="topBar">
+    <>
       <Breadcrumb
+        className="topBar"
         items={[
           {
-            href: "",
             title: (
               <>
                 <div className="linkContainer">
@@ -35,7 +35,7 @@ function NavigationBar() {
           },
         ]}
       />
-    </div>
+    </>
   );
 }
 
