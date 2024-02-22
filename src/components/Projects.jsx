@@ -39,10 +39,7 @@ function Projects() {
                 <img className="cardImage" alt="example" src={resumeImage} />
               }
             >
-              <Meta
-                title="Mitchel Alejo Resume"
-                description="View/Download Resume"
-              />
+              <div className="projectCardTitle">My Resume</div>
             </Card>
           </div>
           <div>
@@ -54,10 +51,7 @@ function Projects() {
               }}
               cover={<img className="cardImage" alt="example" src={fvpLogo} />}
             >
-              <Meta
-                title="Fox Valley Painters Project"
-                description="View Project"
-              />
+              <div className="projectCardTitle">Fox Valley Painters</div>
             </Card>
           </div>
 
@@ -70,7 +64,7 @@ function Projects() {
               }}
               cover={<img className="cardImage" alt="example" />}
             >
-              <Meta title="TechBuy Project" description="View Project" />
+              <div className="projectCardTitle">Tech-Buy</div>
             </Card>
           </div>
           <div>
@@ -82,7 +76,7 @@ function Projects() {
               }}
               cover={<img className="cardImage" alt="example" />}
             >
-              <Meta title="TechBuy Project" description="View Project" />
+              <div className="projectCardTitle">Tech-Buy</div>
             </Card>
           </div>
         </div>

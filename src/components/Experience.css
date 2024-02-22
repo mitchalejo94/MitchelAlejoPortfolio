@@ -28,18 +28,18 @@
   opacity: 0.9;
   filter: drop-shadow(0 0 1.5em #aec3b0);
   display: inline-block;
+  transition: transform 0.5s ease;
+  /* border: solid red; */
+  background: linear-gradient(to bottom, #aec3b0, #eff6e0);
+  font-family: "Poppins";
+  font-size: 25px;
+  color: #606c38;
 }
+
 .resumeImage {
   height: 10rem;
 }
 
-.resumeCard:hover {
-  width: 14.5rem;
-  height: 17.5rem;
-  opacity: 1;
-  cursor: pointer;
-  filter: drop-shadow(0 0 2em #aec3b0);
-}
 .skillsText {
   margin-top: -20rem;
 }
@@ -48,8 +48,17 @@
 }
 
 .animateCard {
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-name: animate-card;
+}
+
+.resumeCard:hover {
+  width: 14.5rem;
+  height: 17.5rem;
+  opacity: 1;
+  cursor: pointer;
+  filter: drop-shadow(0 0 2em #aec3b0);
+  font-size: 26px;
 }
 
 @keyframes animate-card {
