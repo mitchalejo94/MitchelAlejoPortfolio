@@ -1,4 +1,19 @@
 .footerContainer {
-  /* border: solid red; */
-  opacity: 0.5;
+  border: solid red;
+
+  background-color: #aec3b0;
+  border: solid 2px #eff6e0;
+  color: #eff6e0;
+  margin-bottom: -3.5rem;
+  font-size: 25px;
+}
+.footerIcon {
+  width: 40px;
+  height: auto;
+}
+.footerIcon:hover {
+  filter: drop-shadow(0 0 1em #aec3b0);
+  cursor: pointer;
+  width: 41px;
+  height: auto;
 }

@@ -10,38 +10,14 @@ function Footer() {
         <div className="footerContainer">
           <ul className="nav justify-content-center border-bottom pb-3 mb-3">
             <li className="nav-item">
-              <a
-                href="https://www.linkedin.com/in/mitchelalejo/"
-                className="nav-link px-2 text-body-secondary"
-              >
-                <img
-                  src={linkedIn}
-                  alt=""
-                  style={{
-                    width: "40px",
-                    height: "auto",
-                    padding: "0",
-                    margin: "0",
-                  }}
-                />
+              <a href="https://www.linkedin.com/in/mitchelalejo/">
+                <img className="footerIcon" src={linkedIn} alt="" />
               </a>
             </li>
 
             <li className="nav-item">
-              <a
-                href="https://github.com/mitchalejo94"
-                className="nav-link px-2 text-body-secondary"
-              >
-                <img
-                  src={gitHub}
-                  alt=""
-                  style={{
-                    width: "40px",
-                    height: "auto",
-                    padding: "0",
-                    margin: "0",
-                  }}
-                />
+              <a href="https://github.com/mitchalejo94" className="footerIcon">
+                <img src={gitHub} alt="" className="footerIcon" />
               </a>
             </li>
           </ul>

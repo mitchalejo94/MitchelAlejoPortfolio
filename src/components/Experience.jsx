@@ -19,8 +19,9 @@ function Experience() {
             </div>
           </section>
           <section>
-            <div className="resumeCard">
+            <div>
               <Card
+                className="resumeCard"
                 onClick={() => {
                   window.open(resume, "_blank");
                 }}
