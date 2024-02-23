@@ -1,14 +1,14 @@
 .topBar {
   display: flex;
   justify-content: center;
-  /* position: fixed; */
+  position: fixed;
   margin-top: -32px;
   z-index: 9999;
   background-color: #aec3b0;
   border: solid 0.5px #eff6e0;
   color: #eff6e0;
   height: 5rem;
-  width: inherit;
+  width: 85%;
 }
 @media screen and (max-width: 768px) {
   .indLinkContainer {

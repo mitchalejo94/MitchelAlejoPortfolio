@@ -1,6 +1,4 @@
-import React from "react";
-import { Image, Breadcrumb } from "antd";
-import { HomeOutlined } from "@ant-design/icons";
+import { Breadcrumb } from "antd";
 import { Link } from "react-scroll";
 import "./NavigationBar.css";
 
