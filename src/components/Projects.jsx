@@ -1,9 +1,11 @@
 import { Card } from "antd";
 import { useInView } from "react-intersection-observer";
 import resume from "../assets/Mitchel.Alejo.Resume.pdf";
-import resumeImage from "../assets/pngtree-vector-resume-icon-png-image_927259.jpg";
+
 import fvpLogo from "../assets/FVPLOGO.svg";
 import React, { useEffect, useState } from "react";
+import ResumeSVG from "../assets/ResumeSVG.svg";
+import comingSoon from "../assets/comingSoon.jpeg";
 import "./Projects.css";
 
 const { Meta } = Card;
@@ -36,7 +38,7 @@ function Projects() {
                 window.open(resume, "_blank");
               }}
               cover={
-                <img className="cardImage" alt="example" src={resumeImage} />
+                <img className="cardImage" alt="example" src={ResumeSVG} />
               }
             >
               <div className="projectCardTitle">My Resume</div>
@@ -45,6 +47,7 @@ function Projects() {
           <div>
             <Card
               ref={projectRef}
+              id="foxValleyCard"
               className={`individualCard ${animateProject} `}
               onClick={() => {
                 window.open("https://foxvalleypainters.netlify.app/", "_blank");
@@ -71,12 +74,16 @@ function Projects() {
             <Card
               ref={projectRef}
               className={`individualCard ${animateProject} `}
-              onClick={() => {
-                window.open(" https://tech-buy.netlify.app", "_blank");
-              }}
-              cover={<img className="cardImage" alt="example" />}
+              // onClick={() => {
+              //   window.open("", "_blank");
+              // }}
+              cover={
+                <img className="cardImage" alt="example" src={comingSoon} />
+              }
             >
-              <div className="projectCardTitle">Tech-Buy</div>
+              <div className="projectCardTitle">
+                eCom: Your E-Commerce Website{" "}
+              </div>
             </Card>
           </div>
         </div>

@@ -2,8 +2,8 @@ import { useInView } from "react-intersection-observer";
 import "./Experience.css";
 import { Card } from "antd";
 import resume from "../assets/Mitchel.Alejo.Resume.pdf";
-import resumeImage from "../assets/pngtree-vector-resume-icon-png-image_927259.jpg";
 
+import ResumeSVG from "../assets/ResumeSVG.svg";
 function Experience() {
   const { ref: cardRef, inView: cardIsVisible } = useInView();
 
@@ -30,7 +30,7 @@ function Experience() {
                 window.open(resume, "_blank");
               }}
               cover={
-                <img className="resumeImage" alt="example" src={resumeImage} />
+                <img className="resumeImage" alt="example" src={ResumeSVG} />
               }
             >
               <div className="cardTitle">My Resume</div>

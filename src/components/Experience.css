@@ -37,6 +37,7 @@
 }
 
 .resumeImage {
+  margin-top: 15px;
   height: 10rem;
 }
 
@@ -59,6 +60,9 @@
   cursor: pointer;
   filter: drop-shadow(0 0 2em #aec3b0);
   font-size: 26px;
+}
+.resumeCard:hover .resumeImage {
+  height: 10.5rem;
 }
 
 @keyframes animate-card {
