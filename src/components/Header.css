@@ -27,3 +27,30 @@
   display: flex;
   font-size: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .textChangeContainer {
+    height: 28rem;
+    font-size: 16px;
+  }
+  .text1 {
+    width: 100%;
+    justify-content: center;
+    font-size: 40px;
+  }
+  .textChange {
+    width: 100%;
+    justify-content: center;
+    font-size: 45px;
+  }
+  .introText {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .myPhoto {
+    margin-top: 2.5rem;
+    margin-left: 0;
+  }
+}

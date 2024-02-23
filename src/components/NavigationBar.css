@@ -1,24 +1,21 @@
 .topBar {
   display: flex;
-  justify-content: right;
-  position: fixed;
+  justify-content: center;
+  /* position: fixed; */
   margin-top: -32px;
   z-index: 9999;
   background-color: #aec3b0;
   border: solid 0.5px #eff6e0;
   color: #eff6e0;
   height: 5rem;
-  width: 76%;
+  width: inherit;
 }
 @media screen and (max-width: 768px) {
-  .topBar {
-    justify-content: center;
-    width: fit-content;
-  }
   .indLinkContainer {
     font-size: 15px;
   }
 }
+
 .linkContainer {
   display: flex;
   width: 30rem;
@@ -28,6 +25,7 @@
   color: #eff6e0;
   opacity: 0.5;
   font-size: 30px;
+
   width: 50rem;
 }
 .indLinkContainer:hover {
