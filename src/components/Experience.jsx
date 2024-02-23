@@ -28,23 +28,20 @@ function Experience() {
         </div>
 
         <div className="educationContainer">
-          <section>
-            <div className="educationText">
-              <h1>Education</h1>
-              <ul>
-                <li>Dominican University | 08/2012 - 05/2016</li>
-                <ul>Bachelor of Arts, Criminology and Sociology</ul>
-                <ul>
-                  Pi Gamma Mu Honor Society- International Honor Society in
-                  Social Sciences.
-                </ul>
-                <li>
-                  Fullstack Academy Web Development Bootcamp | 07/2022 - 02/2023
-                </li>
-                <ul>Software Engineering Certificate</ul>
-              </ul>
-            </div>
-          </section>
+          <h1>Education</h1>
+
+          <ul>
+            <li>Dominican University | 08/2012 - 05/2016</li>
+            <ul>Bachelor of Arts, Criminology and Sociology</ul>
+            <ul>
+              Pi Gamma Mu Honor Society- International Honor Society in Social
+              Sciences.
+            </ul>
+            <li>
+              Fullstack Academy Web Development Bootcamp | 07/2022 - 02/2023
+            </li>
+            <ul>Software Engineering Certificate</ul>
+          </ul>
         </div>
 
         <div className="resumeCardContainer">

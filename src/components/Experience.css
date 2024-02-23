@@ -1,6 +1,5 @@
 .experiencePageContainer {
   margin-top: 20px;
-
   color: #eff6e0;
   font-family: "Poppins";
   font-size: 20px;
@@ -9,9 +8,10 @@
 .skillsContainer {
   margin-top: 80px;
   margin-right: 50%;
-  height: 18rem;
+  height: 24rem;
 }
 .educationContainer {
+  margin-top: 10px;
   margin-left: 50%;
 }
 .resumeCardContainer {
@@ -36,12 +36,12 @@
   margin-top: 15px;
   height: 10rem;
 }
-. .skillsText {
+.skillsText {
   margin-top: -20rem;
 }
-.educationText {
+/* .educationText {
   margin-top: 40px;
-}
+} */
 
 .animateCard {
   animation-duration: 4s;
@@ -80,24 +80,27 @@
 
 @media screen and (max-width: 768px) {
   .experiencePageContainer {
-    display: flex;
+    border: solid beige;
   }
   .skillsContainer {
-    border: solid beige;
     font-size: 17px;
-    height: 45rem;
+    height: 20rem;
+    margin-right: 0;
   }
   .educationContainer {
-    /* border: solid red; */
+    font-size: 10px;
+    margin-left: 0;
+    height: 17rem;
+    font-size: 17px;
   }
-
+  .resumeCardContainer {
+    height: 15rem;
+  }
   .resumeCard {
-    margin-top: 15rem;
     width: 10rem;
     height: 13rem;
-    border: solid yellow;
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 10px;
     font-size: 20px;
   }
   .resumeImage {
@@ -112,11 +115,7 @@
   .resumeCard:hover .resumeImage {
     height: 6rem;
   }
-  .educationContainer {
-    font-size: 15px;
-    height: 45rem;
-    width: 200rem;
-  }
+
   /* .resumeImage:hover {
     height: 6rem;
   } */
