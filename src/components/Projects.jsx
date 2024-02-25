@@ -57,7 +57,6 @@ function Projects() {
               <div className="projectCardTitle">Fox Valley Painters</div>
             </Card>
           </div>
-
           <div>
             <Card
               ref={projectRef}
@@ -74,9 +73,6 @@ function Projects() {
             <Card
               ref={projectRef}
               className={`individualCard ${animateProject} `}
-              // onClick={() => {
-              //   window.open("", "_blank");
-              // }}
               cover={
                 <img className="cardImage" alt="example" src={comingSoon} />
               }
