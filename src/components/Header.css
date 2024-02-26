@@ -12,15 +12,17 @@
 }
 .textChange {
   display: flex;
-  margin-right: 40%;
+  justify-content: left;
+  margin-right: 30%;
   font-size: 55px;
   transition: opacity 0.5s ease;
 }
 .myPhoto {
+  width: 20rem;
   display: flex;
   justify-content: center;
-  margin-left: 50%;
-  margin-top: -12rem;
+  margin-left: 70%;
+  margin-top: -13.5rem;
 }
 .introText {
   margin-right: 50%;
@@ -30,8 +32,8 @@
 
 @media screen and (max-width: 768px) {
   .textChangeContainer {
-    height: 28rem;
-    font-size: 16px;
+    height: 32rem;
+    margin-top: 15px;
   }
   .text1 {
     width: 100%;
@@ -41,16 +43,17 @@
   .textChange {
     width: 100%;
     justify-content: center;
-    font-size: 45px;
+    font-size: 40px;
+    height: 8rem;
   }
   .introText {
     width: 100%;
     justify-content: center;
-    margin-top: 10px;
-    font-size: 22px;
+    font-size: 24px;
   }
   .myPhoto {
-    margin-top: 2.5rem;
+    margin-top: 10px;
     margin-left: 0;
+    height: 16rem;
   }
 }

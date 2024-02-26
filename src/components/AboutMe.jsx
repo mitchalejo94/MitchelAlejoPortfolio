@@ -1,5 +1,3 @@
-import { Row, Col } from "antd";
-
 import "./AboutMe.css";
 
 function AboutMe() {
@@ -11,23 +9,20 @@ function AboutMe() {
             {" "}
             <h2>About Me:</h2>
             <p>
-              I am passionate about web development. Feel free to browse through
-              my projects, and don't hesitate to reach out. I'm always eager to
-              connect with like-minded individuals and explore new
-              opportunities. Happy coding! Mitchel A. Alejo
+              Hello! Welcome to my portfolio! I am passionate about web
+              development. I'm always eager to connect with like-minded
+              individuals and explore new opportunities.
             </p>
             <p>
-              Doggo ipsum blop aqua doggo wow very biscit long water shoob,
-              floofs clouds. Long doggo most angery pupper I have ever seen vvv
-              waggy wags borkdrive adorable doggo, woofer blep ruff. I am bekom
-              fat wrinkler floofs heck length boy, you are doing me a frighten
-              smol borking doggo with a long snoot for pats noodle horse. Such
-              treat extremely cuuuuuute corgo, pupper. Such treat shibe smol
-              borking doggo with a long snoot for pats you are doing me a
-              frighten puggo many pats, doggorino ur givin me a spook h*ck. Wow
-              such tempt heckin good boys and girls long water shoob, borking
-              doggo.
+              I am an enthusiastic and adaptable web developer with a diverse
+              background, a drive for excellence, and a passion for creating
+              exceptional digital experiences. I am excited to embark on new
+              challenges, and contribute to the ever-evolving landscape of
+              software development. My goal is to create intuitive, user-centric
+              experiences that leave a lasting impression. Please don't hesitate
+              to reach out.
             </p>
+            <div>Happy Coding!</div>
           </section>
         </div>
       </div>

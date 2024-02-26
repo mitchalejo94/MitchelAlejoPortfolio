@@ -1,6 +1,7 @@
 import React from "react";
 import linkedIn from "../assets/linkedIn.png";
 import gitHub from "../assets/gitHub.png";
+import email from "../assets/email.svg";
 import "./Footer.css";
 
 function Footer() {
@@ -18,6 +19,11 @@ function Footer() {
             <li className="nav-item">
               <a href="https://github.com/mitchalejo94" className="footerIcon">
                 <img src={gitHub} alt="" className="footerIcon" />
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="footerIcon" href="mailto:michalejo94@gmail.com">
+                <img src={email} alt="" className="footerIcon" />
               </a>
             </li>
           </ul>

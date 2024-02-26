@@ -25,8 +25,8 @@ function Projects() {
         <div className="projectText">
           <h2>Projects:</h2>
           <p>
-            Take a look at my projects blah dsafsdgasdf dsfdsfsd sdf dsf dsf aSD
-            ASD SAG GFDG DFG FGAS D DSF FD GSDF
+            Feel free to browse through my projects, and don't hesitate to reach
+            out.
           </p>
         </div>
         <div className="cardContainer">

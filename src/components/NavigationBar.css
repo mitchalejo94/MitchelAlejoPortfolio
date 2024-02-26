@@ -10,12 +10,6 @@
   height: 5rem;
   width: 85%;
 }
-@media screen and (max-width: 768px) {
-  .indLinkContainer {
-    font-size: 15px;
-  }
-}
-
 .linkContainer {
   display: flex;
   width: 30rem;
@@ -25,10 +19,26 @@
   color: #eff6e0;
   opacity: 0.5;
   font-size: 30px;
-
   width: 50rem;
 }
 .indLinkContainer:hover {
   color: white;
   opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .topBar {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+  }
+  .indLinkContainer {
+    font-size: 20px;
+    width: 6rem;
+    margin: 7px;
+  }
+
+  .linkContainer {
+    width: 100%;
+  }
 }

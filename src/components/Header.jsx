@@ -9,9 +9,9 @@ function Header() {
   useEffect(() => {
     const changeText = () => {
       setText((prevText) =>
-        prevText === "Mitchel A. Alejo"
+        prevText === "Mitchel A. Alejo 👨🏻‍💻"
           ? "a Software Developer"
-          : "Mitchel A. Alejo"
+          : "Mitchel A. Alejo 👨🏻‍💻"
       );
     };
 
@@ -25,9 +25,9 @@ function Header() {
         <div className="textChangeContainer">
           <div className="text1">Hello, I am</div>
           <div className="textChange">{text}</div>
-          <div className="introText">Welcome to my portfolio</div>
+          <div className="introText">Welcome to my portfolio.</div>
           <div className="myPhoto">
-            <Image width={200} src={Photo} />
+            <Image width={240} src={Photo} />
           </div>
         </div>
       </div>

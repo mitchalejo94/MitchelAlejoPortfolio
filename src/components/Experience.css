@@ -2,11 +2,9 @@
   margin-top: 20px;
   color: #eff6e0;
   font-family: "Poppins";
-  font-size: 20px;
-  border: solid 0.2px;
+  font-size: 23px;
 }
 .skillsContainer {
-  margin-top: 80px;
   margin-right: 50%;
   height: 24rem;
 }
@@ -37,7 +35,7 @@
   height: 10rem;
 }
 .skillsText {
-  margin-top: -20rem;
+  /* margin-top: 3rem; */
 }
 /* .educationText {
   margin-top: 40px;
@@ -80,18 +78,17 @@
 
 @media screen and (max-width: 768px) {
   .experiencePageContainer {
-    border: solid beige;
+    font-size: 16px;
   }
   .skillsContainer {
-    font-size: 17px;
-    height: 20rem;
+    height: 19rem;
     margin-right: 0;
+    margin-top: 45px;
   }
   .educationContainer {
-    font-size: 10px;
+    margin-top: 0;
     margin-left: 0;
-    height: 17rem;
-    font-size: 17px;
+    height: 15rem;
   }
   .resumeCardContainer {
     height: 15rem;
@@ -115,8 +112,17 @@
   .resumeCard:hover .resumeImage {
     height: 6rem;
   }
-
-  /* .resumeImage:hover {
-    height: 6rem;
-  } */
+  .experienceTextContainer {
+    /* border: solid red; */
+    height: 40rem;
+  }
+  .educationList {
+    border: solid 0.1px;
+    width: auto;
+  }
+  .listItem {
+    border: solid rebeccapurple;
+    /* display: flex; */
+    justify-content: left;
+  }
 }

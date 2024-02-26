@@ -1,6 +1,6 @@
 .aboutMeText {
   display: flex;
-  margin-right: 50%;
+  margin-right: 40%;
   margin-top: 80px;
   height: 45rem;
   color: #eff6e0;
@@ -9,16 +9,17 @@
 }
 .aboutMeContainer {
   border: solid 0.7px;
-  height: 70rem;
+  height: 45rem;
 }
 
 @media screen and (max-width: 768px) {
   .aboutMeContainer {
-    height: 70rem;
+    height: 36rem;
   }
   .aboutMeText {
     height: 70rem;
+    margin-top: 45px;
     margin-right: 0;
-    font-size: 20px;
+    font-size: 16px;
   }
 }

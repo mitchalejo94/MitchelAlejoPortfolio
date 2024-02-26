@@ -7,12 +7,21 @@
   font-size: 25px;
 }
 .footerIcon {
+  margin-top: 10px;
   width: 40px;
   height: auto;
+  margin: 5px;
 }
 .footerIcon:hover {
   filter: drop-shadow(0 0 1em gray);
   cursor: pointer;
   width: 41px;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .footerContainer {
+    /* border: salmon; */
+    font-size: 20px;
+  }
 }
