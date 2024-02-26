@@ -3,9 +3,11 @@
   color: #eff6e0;
   font-family: "Poppins";
   font-size: 23px;
+  border: solid 0.5px #eff6e0;
 }
 .skillsContainer {
   margin-right: 50%;
+  margin-top: 45px;
   height: 24rem;
 }
 .educationContainer {
@@ -34,12 +36,6 @@
   margin-top: 15px;
   height: 10rem;
 }
-.skillsText {
-  /* margin-top: 3rem; */
-}
-/* .educationText {
-  margin-top: 40px;
-} */
 
 .animateCard {
   animation-duration: 4s;
@@ -78,17 +74,19 @@
 
 @media screen and (max-width: 768px) {
   .experiencePageContainer {
+    margin-top: 10px;
     font-size: 16px;
   }
   .skillsContainer {
     height: 19rem;
     margin-right: 0;
     margin-top: 45px;
+    /* border: solid red; */
   }
   .educationContainer {
     margin-top: 0;
     margin-left: 0;
-    height: 15rem;
+    height: 11rem;
   }
   .resumeCardContainer {
     height: 15rem;
@@ -113,16 +111,21 @@
     height: 6rem;
   }
   .experienceTextContainer {
-    /* border: solid red; */
+    margin-top: 45px;
     height: 40rem;
   }
   .educationList {
-    border: solid 0.1px;
     width: auto;
   }
   .listItem {
-    border: solid rebeccapurple;
-    /* display: flex; */
+    display: flex;
     justify-content: left;
+    font-size: 16px;
+  }
+  .EduTitle {
+    font-weight: bolder;
+  }
+  .EduDescrip {
+    margin-left: 10%;
   }
 }
