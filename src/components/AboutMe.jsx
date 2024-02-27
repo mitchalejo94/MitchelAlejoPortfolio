@@ -9,18 +9,21 @@ function AboutMe() {
             {" "}
             <h2>About Me:</h2>
             <p>
-              Hello! Welcome to my portfolio! I am passionate about web
-              development. I'm always eager to connect with like-minded
-              individuals and explore new opportunities.
+              Welcome to my portfolio! I'm deeply passionate about web
+              development, always excited to connect with fellow peers and
+              explore new opportunities.
             </p>
             <p>
               I am an enthusiastic and adaptable web developer with a diverse
               background, a drive for excellence, and a passion for creating
-              exceptional digital experiences. I am excited to embark on new
-              challenges, and contribute to the ever-evolving landscape of
-              software development. My goal is to create intuitive, user-centric
-              experiences that leave a lasting impression. Please don't hesitate
-              to reach out.
+              exceptional digital experiences.
+            </p>
+            <p>
+              My primary aim is to design intuitive, user-centric experiences
+              that resonate with users long after their initial interaction. I
+              am excited to embark on new challenges, and contribute to the
+              ever-evolving landscape of software development. Feel free to get
+              in touch!.
             </p>
             <div>Happy Coding!</div>
           </section>

@@ -1,23 +1,21 @@
-.cardContainer {
-  height: 22rem;
-  display: flex;
-  justify-content: center;
-}
-
 .projectPageContainer {
   margin-top: 20px;
   border: solid 0.7px;
-  height: 40rem;
-
-  /* border: solid green; */
+  height: 33rem;
+  border: solid 0.5px black;
 }
-.projectText {
+.projectTitle {
   margin-top: 80px;
-  height: 10rem;
+  height: 4rem;
   color: #eff6e0;
   font-family: "Poppins";
   font-size: 23px;
   /* border: solid blue; */
+}
+.cardContainer {
+  height: 23rem;
+  display: flex;
+  justify-content: center;
 }
 
 .cardImage {
@@ -29,9 +27,8 @@
 }
 
 .individualCard {
-  border: solid red;
   justify-content: center;
-  margin: 10px;
+  margin: 2rem;
   background: linear-gradient(to bottom, #1b263b, #0d1b2a);
   font-family: "Poppins";
   font-size: 20px;
@@ -41,7 +38,7 @@
   width: 12rem;
 }
 .individualCard:hover {
-  /* opacity: 0.7; */
+  opacity: 0.7;
   cursor: pointer;
   height: 21rem;
   filter: drop-shadow(0 0 1em #778da9);
@@ -65,30 +62,35 @@
 
 @media screen and (max-width: 768px) {
   .projectPageContainer {
-    height: 53rem;
+    height: 42rem;
   }
-  .projectText {
-    height: 15rem;
+  .projectTitle {
+    height: 3rem;
+    margin-top: 40px;
   }
 
   .cardContainer {
-    /* height: 35rem; */
+    height: 35rem;
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    border: sienna;
   }
 
   .individualCard {
-    /* border: sienna; */
-    height: 13rem;
+    height: 15rem;
     width: 8rem;
-    font-size: 12px;
     margin: 10px;
+    border: solid 0.5px #778da9;
   }
 
   .individualCard:hover {
     height: 15.5rem;
+  }
+
+  .projectCardTitle {
+    margin-top: -15px;
+    font-size: 14px;
+    /* border-top: solid black; */
   }
 }

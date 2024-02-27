@@ -35,7 +35,7 @@ function Experience() {
 
             <h3 className="listItem EduTitle">Fullstack Academy Bootcamp</h3>
             <h3 className="listItem EduDescrip">
-              •Certificate in Web Development
+              Certificate in Web Development
             </h3>
           </div>
         </div>
@@ -51,7 +51,7 @@ function Experience() {
               <img className="resumeImage" alt="example" src={ResumeSVG} />
             }
           >
-            <div className="cardTitle">My Resume</div>
+            <div className="cardTitle">Resume</div>
           </Card>
         </div>
       </div>

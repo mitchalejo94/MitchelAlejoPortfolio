@@ -1,39 +1,43 @@
 .textChangeContainer {
   height: 15rem;
   color: #eff6e0;
+  -webkit-text-stroke: 2px #606c38;
   font-family: "Poppins";
   margin-top: 50px;
+  font-weight: 500;
 }
 
 .text1 {
   display: flex;
   margin-right: 50%;
-  font-size: 55px;
+  font-size: 60px;
+  /* background: linear-gradient(to bottom, #1b263b, #0d1b2a); */
 }
 .textChange {
   display: flex;
   justify-content: left;
   margin-right: 30%;
-  font-size: 55px;
+  font-size: 65px;
   transition: opacity 0.5s ease;
+}
+.introText {
+  margin-right: 50%;
+  display: flex;
+  font-size: 40px;
 }
 .myPhoto {
   width: 20rem;
   display: flex;
   justify-content: center;
   margin-left: 70%;
-  margin-top: -13.5rem;
-}
-.introText {
-  margin-right: 50%;
-  display: flex;
-  font-size: 30px;
+  margin-top: -15.5rem;
 }
 
 @media screen and (max-width: 768px) {
   .textChangeContainer {
     height: 32rem;
     margin-top: 15px;
+    -webkit-text-stroke: 0.5px #606c38;
   }
   .text1 {
     width: 100%;

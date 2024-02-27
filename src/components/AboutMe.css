@@ -2,14 +2,14 @@
   display: flex;
   margin-right: 40%;
   margin-top: 80px;
-  height: 45rem;
+  height: 30rem;
   color: #eff6e0;
   font-family: "Poppins";
   font-size: 23px;
 }
 .aboutMeContainer {
-  border: solid 0.5px #eff6e0;
-  height: 45rem;
+  border: solid 0.5px black;
+  height: 37rem;
 }
 
 @media screen and (max-width: 768px) {

@@ -3,21 +3,43 @@
   color: #eff6e0;
   font-family: "Poppins";
   font-size: 23px;
-  border: solid 0.5px #eff6e0;
+  border: solid 0.5px black;
+  /* border: solid 0.5px #eff6e0; */
 }
 .skillsContainer {
   margin-right: 50%;
-  margin-top: 45px;
-  height: 24rem;
+  margin-top: 70px;
+  height: 18rem;
 }
+
+/* EDUCATION CONTAINER */
 .educationContainer {
   margin-top: 10px;
   margin-left: 50%;
 }
+
+.educationList {
+  width: auto;
+}
+.listItem {
+  display: flex;
+  justify-content: left;
+  font-size: 16px;
+}
+.EduTitle {
+  font-size: 24px;
+}
+.EduDescrip {
+  margin-left: 10%;
+  font-size: 22px;
+}
+
+/* RESUME CARD STYLING */
 .resumeCardContainer {
   height: 20rem;
 }
 .resumeCard {
+  border: solid 0.5px black;
   margin-top: 1rem;
   width: 14rem;
   height: 17rem;
@@ -31,17 +53,22 @@
   font-size: 25px;
   color: #606c38;
 }
-
 .resumeImage {
   margin-top: 15px;
   height: 10rem;
 }
-
 .animateCard {
   animation-duration: 4s;
   animation-name: animate-card;
 }
 
+.cardTitle {
+  margin-top: -10px;
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-text-stroke: 2.2px #606c38;
+  color: #eff6e0;
+}
 .resumeCard:hover {
   width: 14.5rem;
   height: 17.5rem;
@@ -81,34 +108,11 @@
     height: 19rem;
     margin-right: 0;
     margin-top: 45px;
-    /* border: solid red; */
   }
   .educationContainer {
     margin-top: 0;
     margin-left: 0;
     height: 11rem;
-  }
-  .resumeCardContainer {
-    height: 15rem;
-  }
-  .resumeCard {
-    width: 10rem;
-    height: 13rem;
-    margin: auto;
-    margin-top: 10px;
-    font-size: 20px;
-  }
-  .resumeImage {
-    margin-top: 10px;
-    height: 5.5rem;
-  }
-  .resumeCard:hover {
-    width: 10.5rem;
-    height: 13.5rem;
-    font-size: 22px;
-  }
-  .resumeCard:hover .resumeImage {
-    height: 6rem;
   }
   .experienceTextContainer {
     margin-top: 45px;
@@ -123,9 +127,42 @@
     font-size: 16px;
   }
   .EduTitle {
-    font-weight: bolder;
+    font-size: 17px;
   }
   .EduDescrip {
     margin-left: 10%;
+  }
+
+  /* RESUME CARD STYLING */
+  .resumeCardContainer {
+    height: 14rem;
+  }
+  .resumeCard {
+    width: 10rem;
+    height: 12rem;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .cardTitle {
+    margin-top: -20px;
+    margin-left: -25px;
+    font-size: 30px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px #606c38;
+    color: #eff6e0;
+    width: 10rem;
+  }
+  .resumeImage {
+    margin-top: 10px;
+    height: 7rem;
+  }
+  .resumeCard:hover {
+    width: 10.5rem;
+    height: 12.3rem;
+    font-size: 31px;
+    font-weight: bold;
+  }
+  .resumeCard:hover .resumeImage {
+    height: 6rem;
   }
 }
